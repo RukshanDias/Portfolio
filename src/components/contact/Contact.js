@@ -1,56 +1,16 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
     return (
         <div id="contact" class="container my-24 px-6 mx-auto">
-            <section class="mb-32 text-center text-gray-800">
-                <div class="max-w-[700px] mx-auto px-3 lg:px-6">
-                    <h2 class="text-3xl font-bold mb-12">Contact Me</h2>
-                    <form>
-                        <div class="form-group mb-6">
-                            <input
-                                type="text"
-                                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-pad border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                id="exampleInput7"
-                                placeholder="Name"
-                            />
-                        </div>
-                        <div class="form-group mb-6">
-                            <input
-                                type="email"
-                                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                id="exampleInput8"
-                                placeholder="Email address"
-                            />
-                        </div>
-                        <div class="form-group mb-6">
-                            <textarea
-                                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                id="exampleFormControlTextarea13"
-                                rows="3"
-                                placeholder="Message"
-                            ></textarea>
-                        </div>
-                        {/* <div class="form-group form-check text-center mb-6">
-                            <input
-                                type="checkbox"
-                                class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                                id="exampleCheck87"
-                                checked
-                            />
-                            <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">
-                                Send me a copy of this message
-                            </label>
-                        </div> */}
-                        <button
-                            type="submit"
-                            class=" w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                            Send
-                        </button>
-                    </form>
-                </div>
-            </section>
+            <h1 className="mb-5 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+                Contact Me
+            </h1>
+            <div className="flex justify-center">
+                <AiOutlineMail className="mt-1 mr-2 text-2xl"/>
+                <h1 className="text-center text-2xl">rukshandias002@gmail.com</h1>
+            </div>
         </div>
     );
 };
