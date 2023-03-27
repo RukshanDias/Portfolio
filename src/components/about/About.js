@@ -9,17 +9,13 @@ const About = () => {
                     <img src={img} alt="" />
                 </div>
                 <div className="lg:w-1/2">
-                    <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                        About Me
-                    </h1>
+                    <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl ">About Me</h1>
                     <p className=" lg:text-xl">
                         A passionate undergraduate seeking to apply knowledge and skills to gain valuable experience through an internship. A quick
                         learner, adaptable, and possess excellent problem-solving skills, which allows to deliver quality solutions. Through my
                         internship, I aim to gain practical experience and enhance technical skills to establish a successful career.
                     </p>
-                    <h1 className="mb-4 text-1xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2.5xl dark:text-white mt-8">
-                        Skills
-                    </h1>
+                    <h1 className="mb-4 text-1xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2.5xl  mt-8">Skills</h1>
                     <div className="flex justify-around gap-6">
                         <ul className="text-left">
                             <li>HTML, CSS, JS(ES6)</li>

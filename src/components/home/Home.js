@@ -9,9 +9,7 @@ const Home = () => {
         <section class="flex bg-gradient-to-r from-gray-300 to-white dark:bg-gray-900 h-[90vh]">
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 content-center">
                 <div class="mr-auto place-self-center lg:col-span-7">
-                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                        Rukshan Dias
-                    </h1>
+                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Rukshan Dias</h1>
                     <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-500">
                         Software Engineer Undergraduate
                     </p>
@@ -27,7 +25,7 @@ const Home = () => {
                         href="https://drive.google.com/file/d/1gjB08gMU-mKZaH4hGs4ApRDoI7QsnmrD/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
                     >
                         View CV <BsFillArrowRightCircleFill className="ml-2" />
                     </a>
