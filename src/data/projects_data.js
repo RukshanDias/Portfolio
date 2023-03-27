@@ -33,10 +33,7 @@ const projects = [
         name: "Skin Consultation Management System",
         description: "Java console and Swing GUI programme developed using core OOP principles.",
         img: img3,
-        techStack: [
-            "https://cdn.jsdelivr.net/npm/devicon@2.10.0/icons/java/java-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        ],
+        techStack: ["https://cdn.jsdelivr.net/npm/devicon@2.10.0/icons/java/java-original.svg"],
         github: "https://github.com/RukshanDias/Skin-Consultation-Management-System",
         deploy: null,
     },
@@ -44,10 +41,7 @@ const projects = [
         name: "Fuel Queue Management System",
         description: "Java console and JavaFx GUI programme developed using core OOP principles.",
         img: img4,
-        techStack: [
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        ],
+        techStack: ["https://cdn.jsdelivr.net/npm/devicon@2.10.0/icons/java/java-original.svg"],
         github: "https://github.com/RukshanDias/Fuel-Queue-Management-System",
         deploy: null,
     },
