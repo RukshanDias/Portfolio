@@ -16,16 +16,17 @@ const Home = () => {
                         Software Engineer Undergraduate
                     </p>
                     <div className="flex text-4xl justify-center gap-5 mb-6">
-                        <a href="https://github.com/RukshanDias" target="_blank" alt="GitHub">
+                        <a href="https://github.com/RukshanDias" target="_blank" rel="noopener" alt="GitHub">
                             <AiFillGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/rukshan-dias-4b7a22231/" target="_blank" alt="linkedin">
+                        <a href="https://www.linkedin.com/in/rukshan-dias-4b7a22231/" target="_blank" rel="noopener" alt="linkedin">
                             <AiFillLinkedin />
                         </a>
                     </div>
                     <a
                         href="https://drive.google.com/file/d/1gjB08gMU-mKZaH4hGs4ApRDoI7QsnmrD/view?usp=sharing"
                         target="_blank"
+                        rel="noopener"
                         class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
                     >
                         View CV <BsFillArrowRightCircleFill className="ml-2" />
