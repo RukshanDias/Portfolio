@@ -11,7 +11,10 @@ const Projects = () => {
 
                 <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12 mx-10">
                     {projects.map((element, index) => (
-                        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5 items-center">
+                        <div
+                            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5 items-center"
+                            key={index}
+                        >
                             <img class="rounded-t-lg " src={element.img} alt="" />
                             <div class="p-5">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{element.name}</h5>
@@ -19,7 +22,7 @@ const Projects = () => {
 
                                 <div className="flex justify-center my-3">
                                     {element.techStack.map((tech, index) => (
-                                        <div className="bg-slate-200 mx-2 my-2 rounded-full p-1.5">
+                                        <div className="bg-slate-200 mx-2 my-2 rounded-full p-1.5" key={index}>
                                             <img src={tech} alt={element.name} className="w-7 h-7   " />
                                         </div>
                                     ))}
